@@ -15,5 +15,22 @@ for i in range(5):
     wait_time=random.randint(1,60)
     print(wait_time)
     time.sleep(wait_time)
-
+'''for的三种典型用法：
+   1. for i in [1,2,3]:
+            print(i)
+            1
+            2
+            3
+   2. for ch in "Hi!"
+             print(ch)
+             H
+             i 
+             !
+   3. for i in range(5)
+            print("Hello,World")
+            Hello,World
+            Hello,World
+            Hello,World
+            Hello,World
+            Hello,World'''
 

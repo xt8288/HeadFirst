@@ -22,6 +22,6 @@ nums=[0,1,2,3]
 # nums.remove(3)        #3是要删除的值，不是索引值
 # nums.pop(3)           #3是索引值对应列表中的第4位，删除
 # nums.extend([5,6])    #提供对象列表，追加到现有列表
-nums.insert(1,"python") #前面1是插入对象索引在这个位置之前，python是要插入的对象
+nums.insert(2,"python") #前面1是插入对象索引在这个位置之前，python是要插入的对象
 print(nums)
 

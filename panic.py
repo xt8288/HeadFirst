@@ -37,7 +37,16 @@
 '''list[开始：结束：步长]中间用冒号连接'''
 letters="Don't panic!"
 Lletters=list(letters)
-print(Lletters[0:10:3])
-print(Lletters[3:])
-print(Lletters[:10])
-print(Lletters[::2])
+# print(Lletters[0:10:3])  #每三个字母选择一个，直到索引位置10（不包括10）
+# print(Lletters[3:])      #跳过前三个字母，然后输出其余的字母
+# print(Lletters[:10])     #直到输出索引位置，不包括索引位置
+# print(Lletters[::2])     #每两个字母选择一个
+print(Lletters[0:3])
+new_letters=''.join(Lletters[0:3])
+New_letters=''.join(Lletters[-6:])
+my_letters=''.join(Lletters[::-1]) #步长为1倒序
+you_letters=''.join(Lletters[::2])
+print(new_letters)
+print(New_letters)
+print(my_letters)
+print(you_letters)

@@ -41,12 +41,14 @@ Lletters=list(letters)
 # print(Lletters[3:])      #跳过前三个字母，然后输出其余的字母
 # print(Lletters[:10])     #直到输出索引位置，不包括索引位置
 # print(Lletters[::2])     #每两个字母选择一个
-print(Lletters[0:3])
-new_letters=''.join(Lletters[0:3])
-New_letters=''.join(Lletters[-6:])
+# print(Lletters[0:3])
+new_letters=''.join(Lletters[0:5]) #从列表选择前三个对象
+New_letters=''.join(Lletters[-6:]) #从列表中选择最后的6个对象
 my_letters=''.join(Lletters[::-1]) #步长为1倒序
-you_letters=''.join(Lletters[::2])
+you_letters=''.join(Lletters[::2]) #每两个选择一个
+your_letters=''.join(Lletters[1:8:1])
 print(new_letters)
 print(New_letters)
 print(my_letters)
 print(you_letters)
+print(your_letters)
